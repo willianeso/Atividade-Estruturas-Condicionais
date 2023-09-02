@@ -1,37 +1,38 @@
-Algoritmo "Questão 1"
-// Disciplina  : [Lógica de Programação]
+Algoritmo "QuestÃ£o 1"
+// Disciplina  : [LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   :  Carlos Anderson
-// Descrição   :  Indica se o valor de C é maior ou menor que a soma de A + B
+// DescriÃ§Ã£o   :  Indica se o valor de C Ã© maior ou menor que a soma de A + B
 // Autor(a)    :  Williane
 // Data atual  :  31/08/2023
+
 Var
-// Seção de Declarações das variáveis 
-a, b, c : inteiro
-soma : inteiro
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   a, b, c : inteiro
+   soma : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva ("Digite o valor de 'A': ")
-leia (a)
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreva ("Digite o valor de 'A': ")
+   leia (a)
 
-escreva ("Digite o valor de 'B': ")
-leia (b)
+   escreva ("Digite o valor de 'B': ")
+   leia (b)
 
-escreva ("Digite o valor de 'C': ")
-leia (C)
+   escreva ("Digite o valor de 'C': ")
+   leia (C)
+   limpatela
 
+   soma <- (a + b)
 
-
-
-
-soma <- (a + b)
-
-
-se (soma < c) entao
-   escreval ("A soma de A + B é menor que C")
-senao
-   escreval ("A soma de A + B é maior que C")
-
-
+   escreval ("Valor de A: ", a)
+   escreval ("Valor de B: ", b)
+   escreval ("Valor de C: ", c)
+   
+// Se
+   se (soma < c) entao
+      escreval ("A soma de A + B Ã© menor que C")
+   senao
+      escreval ("A soma de A + B Ã© maior que C")
    fimse
+
 Fimalgoritmo
