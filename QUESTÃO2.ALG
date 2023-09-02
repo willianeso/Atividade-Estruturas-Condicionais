@@ -1,19 +1,21 @@
-Algoritmo "QUESTÃO2"
-// Disciplina   : [Lógica de Programação]
+Algoritmo "QUESTÃƒO2"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   :  Carlos Anderson
-// Descrição   :  Declara dados do usuário
+// DescriÃ§Ã£o   :  Declara dados do usuÃ¡rio
 // Autor(a)    :  Williane Santos
 // Data atual  :  31/08/2023
+
 Var
-   // Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome : caracter
    sexo : caracter
    estadoCivil : caracter
    tempodeCasada : inteiro
+   tempodeCasado : caracter
 
 Inicio
-   // Seção de Comandos
-   escreva ("FAVOR, DIGITAR TUDO MAIÚSCULO")
+// SeÃ§Ã£o de Comandos
+   escreva ("FAVOR, DIGITAR TUDO MAIÃšSCULO")
 
    escreval ("")
 
@@ -21,7 +23,7 @@ Inicio
    leia (nome)
 
 
-   escreval ("Informe seu sexo: ")
+   escreval ("Qual seu sexo? ")
    escreva ("Digite 'F' para feminino e 'M' para nasculino: ")
    leia (sexo)
 
@@ -32,23 +34,21 @@ Inicio
     se (sexo = "F") e (estadoCivil = "CASADA") entao
       escreva ("Quanto anos de casada? ")
       leia (tempodeCasada)
+    fimse
+      
+      se (sexo = "M") e (estadoCivil = "CASADO") ou (estadoCivil = "SOLTEIRO") entao
+      escreva ("Fim das perguntas.", tempodecasado)
    fimse
 
-   limpatela
-
-
-
-   se (sexo = "M") e (estadoCivil = "CASADO") entao
-      escreva ("Fim das perguntas.")
-      leia (tempodeCasada)
-   fimse
+     limpatela
+     
 
 
 
    escreval ("Nome: ", nome)
    escreval ("Sexo: ", sexo)
    escreval ("Estado Civil: ", estadoCivil)
-   escreval ("Tempo que está casado (a): ", tempodeCasada)
+
    
 
 Fimalgoritmo
