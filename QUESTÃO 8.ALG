@@ -1,20 +1,20 @@
-Algoritmo "QUESTÃO 8"
-// Disciplina : Lógica de Programação
+Algoritmo "QUESTÃƒO 8"
+// Disciplina : LÃ³gica de ProgramaÃ§Ã£o
 // Professor : Carlos Anderson
 // Autor (a) : Williane Santos
 // Data atual : 02/09/2023
 
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    cor: caracter
    preco : caracter
 
 Inicio
-// Seção de Comandos
-   escreva ("POR FAVOR DIGITE TUDO MAIÚSCULO.")
+// SeÃ§Ã£o de Comandos
+   escreva ("POR FAVOR DIGITE TUDO MAIÃšSCULO.")
    escreval ("")
    escreval ("")
-   escreval ("Qual a cor do CD que você deseja?")
+   escreval ("Qual a cor do CD que vocÃª deseja?")
    escreva ("Temos 'verde, azul, amarelo e vermelho': ")
    leia (cor)
    limpatela
