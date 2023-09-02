@@ -1,11 +1,11 @@
-Algoritmo "Quest„o 4"
-// Disciplina : LÛgica de ProgramaÁ„o
+Algoritmo "Quest√£o 4"
+// Disciplina : L√≥gica de Programa√ß√£o
 // Professor : Carlos Anderson
 // Autor (a) : Williane Santos
 // Data atual : 31/08/2023
 
 Var
-// Declarando as vari·veis
+// Declarando as vari√°veis
    kgdoMorango : real
    kgdaMaca : real
    valordoMorango : real
@@ -14,23 +14,23 @@ Var
 
 
 Inicio
-// SeÁ„o de Comandos
-   escreva ("Digite a quantidade (KG) de maÁ„s: ")
+// Se√ß√£o de Comandos
+   escreva ("Digite a quantidade (KG) de ma√ß√£s: ")
    leia (kgdaMaca)
 
    escreva ("Digite a quantidade (KG) de morangos: ")
    leia (kgdoMorango)
 
 
-// Se, sen„o
-   se(kgdaMaca < 5)  entao
+// Se, sen√£o
+   se(kgdaMaca <= 5)  entao
       valordaMaca <- (kgdaMaca) * 1.80)
    senao
       valordaMaca <- (kgdaMaca) * 1.50)
    fimse
 
 
-   se (kgdoMorango < 5) entao
+   se (kgdoMorango <= 5) entao
       valordoMorango <- (kgdoMorango) * 2.50)
    senao
       valordoMorango <- (kgdoMorango) * 2.20)
@@ -46,7 +46,7 @@ Inicio
    fimse
 
 // Valor total
-   escreval("O valor a ser pago È: ", valorTotal)
+   escreval("O valor a ser pago √©: ", valorTotal)
 
 
 Fimalgoritmo
